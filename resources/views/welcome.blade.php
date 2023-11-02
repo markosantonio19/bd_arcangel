@@ -55,10 +55,10 @@
 
     .container {
         text-align: center;
-        background-color: rgba(255, 255, 255, 0.8); /* Fondo semi-transparente blanco */
+        background-color: rgba(255, 255, 255, 0.8); /* Rojo semi-transparente */
         padding: 20px;
         border-radius: 10px;
-        box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+        box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
     }
 
     h1 {
@@ -74,7 +74,7 @@
     .btn {
         display: inline-block;
         padding: 10px 20px;
-        background-color: #007BFF; /* Color de fondo del botón */
+        background-color: #007BF0; /* Color de fondo del botón */
         color: #fff; /* Color del texto del botón */
         text-decoration: none;
         border-radius: 5px;
