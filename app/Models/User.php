@@ -21,6 +21,7 @@ class User extends Authenticatable
         'name',
         'email',
         'password',
+        'username',
     ];
 
     /**
@@ -42,4 +43,8 @@ class User extends Authenticatable
         'email_verified_at' => 'datetime',
         'password' => 'hashed',
     ];
+
+    public function purchases(){
+        return $this->hasMany(ProductSold::class, 'buyer_id')->orderBy('created_at', 'DESC');
+    }
 }
